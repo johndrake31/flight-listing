@@ -5,7 +5,25 @@ padding: 5px;
 .inside{
   padding: 10px 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.319), rgba(255, 255, 255, 0.326)), url(https://www.tws.edu/wp-content/uploads/2017/08/airplane-flying.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
 }
 span{
   color: red;
+}
+button{
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  background-color: rgba(193, 193, 193, 0.292);
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 2px;
+  border: none;
+  &:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.292);
+  }
 }

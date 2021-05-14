@@ -23,7 +23,7 @@ export class AddFlightComponent implements OnInit {
       arrivalAirportCode: ['', Validators.required],
       departureTime: ['', Validators.required],
       arrivalTime: ['', Validators.required],
-      late: ['', Validators.required],
+      late: [''],
     });
   }
 

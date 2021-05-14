@@ -1,0 +1,28 @@
+.big-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box {
+  padding: 5px;
+}
+
+.inside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.inside label {
+  margin-top: 5px;
+}
+
+.inside input {
+  margin-bottom: 5px;
+}
+/*# sourceMappingURL=add-flight.component.css.map */

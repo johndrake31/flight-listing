@@ -1,17 +1,49 @@
+form{
+  background-color: rgba(0, 0, 0, 0.771);
+  color: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+}
 .big-box{
   display: flex;
+  padding: 15px 0;
 }
 
 .box{
   padding: 5px;
+  width: 40%;
 }
 .inside{
   display: flex;
   flex-direction: column;
   label{
     margin-top: 5px;
+    margin-bottom: 3px;
   }
   input{
     margin-bottom: 5px;
+    height: 25px;
   }
+}
+button{
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.387)), url(https://us.123rf.com/450wm/kesu87/kesu871901/kesu87190100275/116469322-airplane-taking-off-from-the-airport-.jpg?ver=6);
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  border:none;
+  width: 10%;
+  box-shadow: rgba(251, 251, 251, 0.24) 0px 3px 8px;
+  margin-left: 10px;
+  &:hover{
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.804), rgba(255, 255, 255, 0.387)), url(https://us.123rf.com/450wm/kesu87/kesu871901/kesu87190100275/116469322-airplane-taking-off-from-the-airport-.jpg?ver=6);
+  }
+}
+
+
+.last-div{
+  width: 30px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.942),white)
 }

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAA;EACN,OAAO,EAAE,GAAG;CACX;;AAED,AAAA,OAAO,CAAA;EACL,OAAO,EAAE,SAAS;EAClB,UAAU,EAAE,mBAAmB,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG;CAC5C;;AACD,AAAA,IAAI,CAAA;EACF,KAAK,EAAE,GAAG;CACX",
+    "sources": [
+        "full-flight-detials.component.scss"
+    ],
+    "names": [],
+    "file": "full-flight-detials.component.css"
+}

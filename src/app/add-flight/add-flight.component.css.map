@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAA;EACN,OAAO,EAAE,IAAI;CACd;;AAED,AAAA,IAAI,CAAA;EACF,OAAO,EAAE,GAAG;CACb;;AACD,AAAA,OAAO,CAAA;EACL,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CAQvB;;AAVD,AAGE,OAHK,CAGL,KAAK,CAAA;EACH,UAAU,EAAE,GAAG;CAChB;;AALH,AAME,OANK,CAML,KAAK,CAAA;EACH,aAAa,EAAE,GAAG;CACnB",
+    "sources": [
+        "add-flight.component.scss"
+    ],
+    "names": [],
+    "file": "add-flight.component.css"
+}
