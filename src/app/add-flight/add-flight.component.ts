@@ -15,15 +15,15 @@ export class AddFlightComponent implements OnInit {
 
   ngOnInit(): void {
     this.form = this.fb.group({
-      deptairportcode: ['', Validators.required],
-      departdate: ['', Validators.required],
-      arrival: ['', Validators.required],
+      departureAirportCode: ['', Validators.required],
+      departureDate: ['', Validators.required],
+      arrivalDate: ['', Validators.required],
       price: ['', Validators.required],
-      flightnumber: ['', Validators.required],
-      arrvairportcode: ['', Validators.required],
-      departtime: ['', Validators.required],
-      arrivaltime: ['', Validators.required],
-      flightlate: ['', Validators.required],
+      volNumber: ['', Validators.required],
+      arrivalAirportCode: ['', Validators.required],
+      departureTime: ['', Validators.required],
+      arrivalTime: ['', Validators.required],
+      late: ['', Validators.required],
     });
   }
 

@@ -1,16 +1,16 @@
 <br>
 <hr>
-<form [formGroup]="form" class="big-box">
+<form [formGroup]="form" class="big-box" (ngSubmit)="addMyFlight()">
   <div class="box">
     <div class="inside">
-      <label for="deptairportcode">Airport Code Departure</label>
-      <input type="text" formControlName="deptairportcode">
+      <label for="departureAirportCode">Airport Code Departure</label>
+      <input type="text" formControlName="departureAirportCode">
 
-      <label for="departdate">Departure Date</label>
-      <input type="date" formControlName="departdate">
+      <label for="departureDate">Departure Date</label>
+      <input type="date" formControlName="departureDate">
 
-      <label for="arrivaldate">Arrival Date</label>
-      <input type="date" formControlName="arrival">
+      <label for="arrivalDate">Arrival Date</label>
+      <input type="date" formControlName="arrivalDate">
 
       <label for="price">Price</label>
       <input type="number" formControlName="price">
@@ -21,21 +21,21 @@
 
   <div class="box">
     <div class="inside">
-      <label for="flightnumber">Flight Number</label>
-      <input type="text" formControlName="flightnumber">
+      <label for="volNumber">Flight Number</label>
+      <input type="text" formControlName="volNumber">
 
-      <label for="arrvairportcode">Airport Code Arrival</label>
-      <input type="text" formControlName="arrvairportcode">
+      <label for="arrivalAirportCode">Airport Code Arrival</label>
+      <input type="text" formControlName="arrivalAirportCode">
 
-      <label for="departtime">Departure Time</label>
-      <input type="time" formControlName="departtime">
+      <label for="departureTime">Departure Time</label>
+      <input type="time" formControlName="departureTime">
 
-      <label for="arrivaltime">Arrival Time</label>
-      <input type="time" formControlName="arrival-time">
+      <label for="arrivalTime">Arrival Time</label>
+      <input type="time" formControlName="arrivalTime">
 
-      <label for="flightlate">flight late</label>
-      <input type="checkbox" formControlName="flightlate">
+      <label for="late">flight late</label>
+      <input type="checkbox" formControlName="late">
     </div>
   </div>
-  <button>Add Flight</button>
+  <button type="submit">Add Flight</button>
 </form>
