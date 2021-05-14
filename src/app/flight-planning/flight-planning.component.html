@@ -1,0 +1,13 @@
+<!-- <h1>Airport Managment</h1>
+  <a>add a flight</a>
+  <br>
+  <a>see flight list</a> -->
+
+<div *ngIf="!displayAllFlights">
+  <app-full-flight-detials [flightInfo]="flightDetials" (sendTruthy)="closeFlightWindow($event)"></app-full-flight-detials>
+</div>
+
+<div *ngIf="displayAllFlights">
+  <h2>Flight List: </h2>
+  <app-flight *ngFor="let item of volsTbl" [volInfo]="item" (sendId)="getFlightId($event)"></app-flight>
+</div>

@@ -1,0 +1,17 @@
+.big-box{
+  display: flex;
+}
+
+.box{
+  padding: 5px;
+}
+.inside{
+  display: flex;
+  flex-direction: column;
+  label{
+    margin-top: 5px;
+  }
+  input{
+    margin-bottom: 5px;
+  }
+}

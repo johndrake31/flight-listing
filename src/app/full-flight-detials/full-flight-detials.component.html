@@ -1,0 +1,13 @@
+<div class="outer">
+  <div class="inside">
+    <h4>Vol Number: #{{flightInfo.volNumber}} <span *ngIf="flightInfo.late">: Flight behind Schedule</span></h4>
+    <h5>Departing From: {{flightInfo.departureAirportCode}}</h5>
+    <p>Date: {{flightInfo.departureDate}} at {{flightInfo.departureTime}}</p>
+
+
+    <h5>Arriving at: {{flightInfo.arrivalAirportCode}}</h5>
+    <p>Date: {{flightInfo.arrivalDate}} at {{flightInfo.arrivalTime}}</p>
+    <h5 >price: {{flightInfo.price | currency}}</h5>
+    <button (click)="changeBool()">Back to Flight List</button>
+  </div>
+</div>

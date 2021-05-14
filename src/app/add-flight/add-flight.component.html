@@ -1,0 +1,41 @@
+<br>
+<hr>
+<form [formGroup]="form" class="big-box">
+  <div class="box">
+    <div class="inside">
+      <label for="deptairportcode">Airport Code Departure</label>
+      <input type="text" formControlName="deptairportcode">
+
+      <label for="departdate">Departure Date</label>
+      <input type="date" name="departdate">
+
+      <label for="arrival-date">Arrival Date</label>
+      <input type="date" name="arrival">
+
+      <label for="price">Price</label>
+      <input type="number" name="price">
+    </div>
+  </div>
+
+
+
+  <div class="box">
+    <div class="inside">
+      <label for="flight-number">Flight Number</label>
+      <input type="text" name="flight-number">
+
+      <label for="arrv-airport-code">Airport Code Arrival</label>
+      <input type="text" name="arrv-airport-code">
+
+      <label for="depart-time">Departure Time</label>
+      <input type="time" name="depart-time">
+
+      <label for="arrival-time">Arrival Time</label>
+      <input type="time" name="arrival-time">
+
+      <label for="flight-late">flight late</label>
+      <input type="checkbox" name="flight-late">
+    </div>
+  </div>
+  <button>Add Flight</button>
+</form>
