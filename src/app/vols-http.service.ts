@@ -17,5 +17,8 @@ export class VolsHttpService {
   findFlight(id: number): Observable<Vol> {
     return this.http.get<Vol>(this.urlVols + '/' + id);
   }
+  addFlight(flight: Vol): Observable<Vol>{
+    return this.http.post<Vol>(this.urlVols, flight);
+  }
 
 }
